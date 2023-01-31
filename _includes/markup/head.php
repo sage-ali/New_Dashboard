@@ -10,10 +10,10 @@
     <!-- Update the URL for search engine indexing -->
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="_assets/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
 
     <!-- Custom styles for this app -->
-    <link href="assets/css/dashboard.css" rel="stylesheet" />
-    <link href="assets/css/custom.css" rel="stylesheet" />
+    <link href="_assets/css/dashboard.css" rel="stylesheet" />
+    <link href="_assets/css/custom.css" rel="stylesheet" />
 </head>
