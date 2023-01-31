@@ -1,0 +1,25 @@
+{
+  "name": "new_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "assets\\js\\dashboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sage-ali/New_Dashboard.git"
+  },
+  "author": "sage-ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sage-ali/New_Dashboard/issues"
+  },
+  "homepage": "https://github.com/sage-ali/New_Dashboard#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3"
+  }
+}

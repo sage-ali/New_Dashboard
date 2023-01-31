@@ -1,0 +1,82 @@
+/* edit put inside media query */
+
+main {
+  min-width: 50px;
+  transition: width 0.5s ease;
+  max-height: auto;
+  overflow-x: auto;
+}
+
+  
+  #sidebarMenu {
+    min-width: 50px;
+    transition: width 0.5s ease;
+    transition: min-width 0.5s ease;
+  }
+  
+  #sidebarMenu.col-md-1 {
+    width:7.2%;
+    transition: width 0.5s ease;
+  }
+  main.col-md-11 {
+    width: 92.8%;
+    transition: width 0.5s ease;
+  }
+  
+
+
+
+  /* Adjust the docking icon location */
+
+  #sidebarMenu #sidebar-wrapper{
+    max-height: calc(100vh - 135px);
+    overflow-y: auto;
+    overflow-x: hidden;
+  } 
+
+  #menu-toggle{
+    right: 5px;
+    top: 20px;
+  }
+
+
+  /* Rotate the docking icon */
+  
+  .rotate {
+    transform: rotate(0deg);
+    transition: transform 0.5s;
+}
+
+.rotate-180 {
+  transform: rotate(180deg);
+}
+
+
+
+
+@media (min-width: 768px){
+  body{
+    overflow: hidden;
+  }
+
+  #sidebarMenu:hover {
+    width: 16.66%;
+    transition: width 0.5s ease;
+  }
+
+  main {
+    min-width: 50px;
+    transition: width 0.5s ease;
+    overflow-y: auto;
+    max-height: calc(100vh - 135px);
+  }
+
+  #footer{
+    bottom: 0;
+  }
+
+}
+
+
+
+  /* edit */
